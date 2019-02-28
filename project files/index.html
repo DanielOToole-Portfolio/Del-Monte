@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Del Monte</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/swiper.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/test.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+
+</head>
+<body>
+    <header>
+      <div class="logo">Del Monte</div>
+
+      <nav>
+      <ul>
+        <li class="active">
+          <a class="scroll" href="#menu" class="active">Menu</a>
+        </li>
+        <li>
+          <a class="scroll" href="#table">Book A Table</a>
+        </li>
+        <li>
+          <a class="scroll" href="#crew">The Crew</a>
+        </li>
+        <li>
+          <a class="scroll" href="#reviews">Reviews</a>
+        </li>
+        <li>
+          <a class="scroll" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="menu-toggle">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+  </header>
+
+
+  <div class="pimg1">
+    <div class="ptext">
+        <span class="border">
+            Welcome To Del Monte
+        </span>
+    </div>
+  </div>
+
+
+<section class="section section-dark" id="menu">
+  <h2>Dinner Specialities</h2>
+
+  <span class="team-border"></span>
+
+    <div class="swiper-container" style="z-index:0;">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="/img/me.jpg">
+          </div>
+          <div class="img-details">
+            <h3>Dinner Item 1<h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx2">
+            <img src="/img/me.jpg">
+          </div>
+          <div class="img-details">
+            <h3>Dinner Item 2<h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx3">
+            <img src="/img/me.jpg">
+          </div>
+          <div class="img-details">
+            <h3>Dinner Item 3<h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx4">
+            <img src="/img/me.jpg">
+          </div>
+          <div class="img-details">
+            <h3>Dinner Item 4<h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx5">
+            <img src="/img/me.jpg">
+          </div>
+          <div class="img-details">
+            <h3>Dinner Item 5<h3>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  <span class="team-border"></span>
+
+</section>
+
+
+
+<div class="pimg2">
+  <div class="ptext">
+      <span class="border trans">
+          Image 3 text
+      </span>
+  </div>
+</div>
+<section class="section section-dark">
+  <h2>Full Menu</h2>
+
+
+<span class="team-border"></span>
+
+<div class="tab">
+<button class="tablinks" onclick="openMenu(event, 'Starters')" id="defaultOpen">Starters</button>
+<button class="tablinks" onclick="openMenu(event, 'Main Courses')">Mains</button>
+<button class="tablinks" onclick="openMenu(event, 'Desserts')">Desserts</button>
+</div>
+
+<!-- Tab content -->
+<div id="Starters" class="tabcontent">
+<h3>Starters</h3>
+<span class="menu-border"></span>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>Garlic Flatbread</h5>
+  <p class="food-details">Stone-baked with herby garlic butter</p>
+  <p class="food-price">$4.50</p>
+  </div>
+
+  <div class="col-md-6 cl">
+  <h5>Sourdough</h5>
+  <p class="food-details">Warm sourdough with extra virgin</p>
+  <p class="food-price">$4.50</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>Arancini</h5>
+  <p class="food-details">roasted mushroom and mascarpone, tomato, grana padanor</p>
+  <p class="food-price">$6.00</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>Truffle Fries</h5>
+  <p class="food-details">white truffle oil, grana padano, sea salt</p>
+  <p class="food-price">$5.50</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>Brussels Sprouts</h5>
+  <p class="food-details">prosciutto bread crumbs, feta cheese, pomegranate molasses</p>
+  <p class="food-price">$6.50</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>Caesar</h5>
+  <p class="food-details">torn foccacia, pickled white anchovy, guanciale, grana padano</p>
+  <p class="food-price">$7.00</p>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="Main Courses" class="tabcontent">
+<h3>Main Courses</h3>
+<span class="menu-border"></span>
+
+
+<h3>Pasta Dishes</h3>
+<span class="menu-border"></span>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>LINGUINE CARBONARA</h5>
+  <p class="food-details">pancetta, black pepper, egg yolk, parmigiano-reggiano</p>
+  <p class="food-price">$18</p>
+  </div>
+
+  <div class="col-md-6 cl">
+  <h5>PIMENTO PENNE</h5>
+  <p class="food-details">red pepper pasta, rosé sauce, fresh basil, parmigiano-reggiano</p>
+  <p class="food-price">$15</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>LASAGNE</h5>
+  <p class="food-details">beef & pancetta ragù, parma ham, tomato béchamel sauce, mozzarella, parmigiano-reggiano</p>
+  <p class="food-price">$23</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>RISOTTO NERO</h5>
+  <p class="food-details">confit squid, shrimp, clams, grilled octopus, charred onion & samphire</p>
+  <p class="food-price">$24</p>
+</div>
+</div>
+
+
+<h3>Pizza</h3>
+<span class="menu-border"></span>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>MARGHERITA</h5>
+  <p class="food-details">fior di latte, tomato passata, blistered tomatoes, basil, olive oil
+<br>add pepperoni (5.)
+<br>add marinated chicken (7.)</p>
+  <p class="food-price">$16</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>FUNGHI BLANCO</h5>
+  <p class="food-details">mixed local mushrooms, black pepper béchamel sauce, mushroom crudo, fior di latte, rosemary</p>
+  <p class="food-price">$19</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>THE BUFFO</h5>
+  <p class="food-details">whole burrata, tomato passata, parmigiano-reggiano, extra virgin olive oil</p>
+  <p class="food-price">$25</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>ANATRA</h5>
+  <p class="food-details">duck confit, pink lady apples, fior di latte, rosemary honey, endive, béchamel sauce</p>
+  <p class="food-price">$20</p>
+</div>
+</div>
+
+
+
+
+
+<h3>Meat Dishes</h3>
+<span class="menu-border"></span>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>CHICKEN PARMESAN</h5>
+  <p class="food-details">mascarpone, ricotta, focaccia crumbs, pecorino romano, rapini, penne with tomato & basil passata</p>
+  <p class="food-price">$24</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>GRILLED FLANK STEAK</h5>
+  <p class="food-details">sicilian caponata, rapini, gremolata, oregano jus, fried fingerling potatoes</p>
+  <p class="food-price">$28</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>8OZ STRIP LOIN</h5>
+  <p class="food-details">sicilian caponata, rapini, gremolata, oregano jus, fried fingerling potatoes</p>
+  <p class="food-price">$33</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>BISTECCA FOR TWO</h5>
+  <p class="food-details">28oz roast porterhouse, rosemary, extra virgin olive oil, garlic, dressed greens, polenta</p>
+  <p class="food-price">$70</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<div id="Desserts" class="tabcontent">
+<h3>Desserts</h3>
+<span class="menu-border"></span>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>TIRAMISU CANNOLI</h5>
+  <p class="food-details">three cannoli with chocolate, espresso, mascarpone & pistachios</p>
+  <p class="food-price">$9</p>
+  </div>
+
+  <div class="col-md-6 cl">
+  <h5>Ice Cream</h5>
+  <p class="food-details">three scoops of vanilla, strawberry or chocolate</p>
+  <p class="food-price">$8</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>ESPRESSO PANNA COTTA</h5>
+  <p class="food-details">chocolate almond biscotti crumb, grand marnier chantilly, confit orange</p>
+  <p class="food-price">$8</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>FLOURLESS CHOCOLATE CAKE</h5>
+  <p class="food-details">hazelnut sabayon</p>
+  <p class="food-price">$10</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6 cl">
+  <h5>TARTUFO</h5>
+  <p class="food-details">dark chocolate ice cream rolled in dark chocolate </p>
+  <p class="food-price">$9</p>
+</div>
+<div class="col-md-6 cl">
+  <h5>ZABAGLIONE AL MARSALA</h5>
+  <p class="food-details">egg yolks whipped with marsala wine & sugar served
+warm</p>
+  <p class="food-price">$9</p>
+</div>
+</div>
+
+</div>
+
+<span class="team-border"></span>
+
+</section>
+
+
+
+<div class="pimg3 tr">
+
+  </div>
+</div>
+<section class="section section-dark" id="table">
+  <h2>Book A Table</h2>
+
+<span class="team-border"></span>
+
+<form id="form" class="topBefore">
+
+    <input class="form-width" id="name" type="text" placeholder="NAME">
+    <input class="form-width" id="email" type="text" placeholder="E-MAIL">
+    <textarea class="form-width" id="message" type="text" placeholder="MESSAGE"></textarea>
+    <input class="form-width btn sweet" id="submit"  value="GO!">
+
+</form>
+
+<script type="text/javascript">
+  document.querySelector(".sweet").addEventListener('click', function(){
+    setTimeout(function() {
+
+      swal.fire("Nice One!", "Your Email has been sent and we'll get back to as soon as possible", "success");
+    }, 1000
+  );
+
+});
+  </script>
+
+<span class="team-border"></span>
+
+</section>
+
+
+
+<div class="pimg4 tr">
+</div>
+<section class="section section-dark" id="crew">
+
+  <div class="team-section">
+
+    <h1>Meet The Crew</h1>
+
+    <span class="team-border"></span>
+
+
+  <section class="team-section mt-5 mb-5">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-6 text-center">
+          <h3>Our Team Members</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 p-0">
+          <div class="team-1-wrap team-style-2">
+            <div class="team-img">
+              <img src="../img/manager.jpg" alt="manager image" class="img-fluid">
+            </div>
+            <div class="team-info">
+                <h4>Greg Smith</h4>
+                <p class="lead">Head Manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 p-0">
+          <div class="team-1-wrap team-style-2">
+            <div class="team-img">
+               <img src="../img/waiter.jpg" alt="waiter image" class="img-fluid">
+            </div>
+            <div class="team-info">
+                <h4>Jane Irish</h4>
+                <p class="lead">Head Waitress</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 p-0">
+          <div class="team-1-wrap team-style-2">
+            <div class="team-img">
+               <img src="../img/chef.jpg" alt="chef image" class="img-fluid">
+            </div>
+            <div class="team-info">
+                <h4>Alex Wayne</h4>
+                <p class="lead">Head Chef</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- <div class="ps">
+        <a herf="#p1" src="../img/me.jpg"></a>
+        <a herf="#p2" src="../img/me.jpg"></a>
+        <a herf="#p3" src="../img/me.jpg"></a>
+        <a herf="#p4" src="../img/me.jpg"></a>
+    </div>
+
+    <div class="team-info" id="p1">
+      <span class="name">Rick Sanchez</span><br>
+      <span class="title">Head Chef</span>
+    </div>
+
+    <div class="team-info" id="p2">
+      <span class="name">Jane Smith</span><br>
+      <span class="title">Assitant Head Chef</span>
+    </div>
+
+    <div class="team-info" id="p3">
+      <span class="name">Luke Paul</span><br>
+      <span class="title">Head Manager</span>
+    </div>
+
+    <div class="team-info" id="p4">
+      <span class="name">Peter Parker</span><br>
+      <span class="title">Head Waiter</span>
+    </div> -->
+
+    <span class="team-border"></span>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<div class="pimg5 tr">
+
+</div>
+<section class="section section-dark" id="reviews">
+  <h2>Customer Reviews</h2>
+  <span class="team-border"></span>
+
+
+
+
+
+  <section id="testim" class="testim">
+  	<div class="testim-cover">
+  		<div class="wrap">
+  			<span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+        <ul id="testim-dots" class="dots">
+        	<li class="dot active"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
+         </ul>
+         <div id="testim-content" class="cont">
+         	<div class="active">
+
+            <p>" Very friendly staff, could talk the ear off them all night.
+               The food was fantastic, I had the steak and my wife had the fish,
+               both were great. "</p>
+  					 			<h2>Sally Jenkins</h2>
+           </div>
+           <div>
+
+            <p>" I brought my whole family to this restuarant,
+              even my little kids and was so shocked that the place was so accomdating,
+               they have something for everyone. "</p>
+  					 			<h2>Dermot O'Shea</h2>
+  				</div>
+          <div>
+
+            <p>" My god is the food heavenly here. My girlfriend and I had the Classic
+              Italian Platter and it was delicious. This restuarant is a very rare find,
+               will be coming in the near future. "</p>
+  									<h2>Sheamus O'Loughin</h2>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+
+
+
+
+   <span class="team-border"></span>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pimg6">
+
+</div>
+<section class="section section-dark .container" id="contact">
+
+    <h2>CONTACT US</h2>
+
+    <span class="team-border"></span>
+
+    <div class="wrapper-contact" style="width: 100%;">
+
+      <div class="row">
+
+    <div style="width: 100%;position: relative; margin: auto;">
+      <iframe width="100%" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%20Downtown%20Calgary%2C%2011%20Avenue%20Southwest%2C%20Calgary%2C%20AB+(Del%20Monte)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+      </iframe>
+      <div style="position: absolute;
+      width: 80%;
+      bottom: 10px;left: 0;right: 0;
+      margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+      <small style="line-height: 1.8;font-size: 2px;background: #fff;">
+
+      </small>
+    </div>
+      <style>#gmap_canvas img{max-width:none!important;background:none!important}
+      </style>
+   </div>
+
+
+   <div class="contact-details">
+     <div class="contact-title">
+        <h3>For More Info</h3>
+     </div>
+
+     <div class="contact-details_2">
+
+     <div class="email">
+       <h4>Send Us an Email</h4>
+       <p>DelMonte@gmail.com</p>
+     </div>
+
+
+
+      <div class="phone">
+        <h4>Give Us a Call</h4>
+        <p>+1 587 655 9087</p>
+      </div>
+
+    </div>
+
+   </div>
+</div>
+</div>
+     <span class="team-border"></span>
+
+
+</section>
+
+
+
+<div class="pimg1">
+
+</div>
+
+
+
+<footer>
+
+  <nav>
+  <ul>
+    <li class="active">
+      <a class="scroll" href="#menu" class="active">Menu</a>
+    </li>
+    <li>
+      <a class="scroll" href="#crew">The Crew</a>
+    </li>
+    <li>
+      <a class="scroll" href="#reviews">Reviews</a>
+    </li>
+  </ul>
+</nav>
+
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="/js/swiper.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/test.js"></script>
+
+
+</body>
+</html>
