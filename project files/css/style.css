@@ -119,52 +119,7 @@ header nav ul li a:hover:after{
 }
 
 
-@media screen and(max-width: 500px){
-  .swiper-container{
-    width: 100%;
-  }
-}
 
-
-.swiper-container{
-  width: 500px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  z-index: 0;
-}
-
-.swiper-slide{
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 380px;
-  background-color: #fff;
-}
-
-
-.swiper-slide .imgBx{
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-
-.swiper-slide .imgBx img{
-    width: 100%;
-}
-
-.swiper-slide .img-details{
-    box-sizing: border-box;
-    font-size: 20px;
-    padding: 20px;
-}
-
-.swiper-slide .details h3{
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  text-align: center;
-  line-height: 20px;
-}
 
 
 
@@ -180,7 +135,7 @@ header nav ul li a:hover:after{
 }
 
 .pimg1{
-  background-image: url('../img/image1.jpg');
+  background-image: url('../img/image1.jpeg');
   min-height: 100%;
 }
 
@@ -190,22 +145,22 @@ header nav ul li a:hover:after{
 }
 
 .pimg3{
-  background-image: url('../img/image3.jpg');
+  background-image: url('../img/image3.jpeg');
   min-height: 400px;
 }
 
 .pimg4{
-  background-image: url('../img/image4.jpg');
+  background-image: url('../img/image4.jpeg');
   min-height: 400px;
 }
 
 .pimg5{
-  background-image: url('../img/image5.jpg');
+  background-image: url('../img/image5.jpeg');
   min-height: 400px;
 }
 
 .pimg6{
-  background-image: url('../img/image6.jpg');
+  background-image: url('../img/image6.jpeg');
   min-height: 400px;
 }
 
@@ -242,10 +197,13 @@ header nav ul li a:hover:after{
   text-transform: uppercase;
 }
 
-.ptext .border{
-  background-color: #111;
-  color: #fff;
-  padding: 20px;
+.ptext{
+  font-size: 40px;
+font-weight: bold;
+background-color: transparent;
+color: #fff;
+padding: 20px;
+border: none;
 }
 
 .ptext .border .trans{
@@ -261,7 +219,35 @@ header nav ul li a:hover:after{
 
 
 
+.card{
+  width: 400px;
+  margin-top: 50px;
+}
 
+.card-body{
+  background-color: #282e34;
+}
+
+.card-title{
+  color: white;
+}
+
+.card-text{
+  color: white;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 300px;
+}
+
+.card-body h4{
+  text-align: left;
+}
+
+.card-body p{
+  text-align: left;
+}
 
 
 
@@ -401,6 +387,11 @@ header nav ul li a:hover:after{
 
 .cl{
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.cl h5, p{
+  text-align: center;
 }
 
 .ps{
